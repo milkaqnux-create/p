@@ -1,0 +1,14 @@
+# Czy dany przedmiot ma sie stackowac (laczyc w stosy).
+# Zmieniasz to komenda: /msitems stacks <zamek|kokos|lod|dzwonek|odlamek> <on|off>
+# Dotyczy przedmiotow odebranych PO zmianie (stare w ekwipunkach zostaja jak byly).
+stacks:
+  zamek: true
+  kokos: true
+  lod: true
+  dzwonek: true
+  odlamek: true
+
+bell:
+  # Dzwonek Szkolny dziala tylko, gdy uzywajacy go gracz jest na wysokosci Y wiekszej lub rownej tej wartosci.
+  # Po zmianie zrestartuj serwer.
+  min-y: 100

@@ -1,0 +1,13 @@
+name: ZamekZPiasku
+version: 1.1.0
+main: pl.boss.zamek.ZamekZPiasku
+api-version: '1.21'
+author: Boss
+commands:
+  msitems:
+    description: Otwiera menu z przedmiotami
+    usage: /msitems [stacks <przedmiot> <on|off>]
+    permission: zamek.admin
+permissions:
+  zamek.admin:
+    default: op
